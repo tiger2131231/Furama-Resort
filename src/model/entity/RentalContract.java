@@ -1,4 +1,4 @@
 package model.entity;
 
-public class LeaseAgreement {
+public class RentalContract {
 }

@@ -1,4 +1,9 @@
 package model.repository;
 
-public interface IEmployeeRepository {
+import model.entity.Employee;
+
+import java.util.List;
+
+public interface IEmployeeRepository extends IRepository<Employee> {
+    Employee findById(String id);
 }
